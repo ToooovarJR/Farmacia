@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--http://localhost/proyecto/ingreso3.html -->
+  
+    <title>An Example Form</title>
+    <style>
+      .signup {
+        width: 400px;
+        height: 300px;
+        border:5px solid greenyellow;
+        font:  normal 13px helvetica;
+        color: aqua;
+        text-align: center;
+        background-color: #b0ecec; 
+        border-radius: 3px;
+        padding: 20px;
+        
+
+      }
+      h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        font-size: 1cm;
+      }
+      input{
+        width: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        border: 2px solid yellowgreen;
+      }
+      form{
+          background-color: #b0ecec;
+      }
+      a{
+        width: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        border: 2px solid yellowgreen;
+        background-color: #22e315;
+      }
+      
+    </style>
+
+
+  </head>
+  
+  <body background="">
+
+    <center>
+      <div style="border: 5px solid yellowgreen; background-color: #b0ecec; text-align: center; background-image: url(../img/descarga.png); width: 900px ;">
+        <h1>LA FARMACIA</h1>
+    
+    <div style="border: 5px solid greenyellow; background-color: #b0ecec; text-align: center; background-image: url(../img/descarga.png); width: 900px ">
+     <center>
+    <table class="signup" border="0" cellpadding="5" cellspacing="5" bgcolor="#eeeeee">
+      <th colspan="2" align="center" style="color: black;background-color: #b0ecec; font-size: x-large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ">Inventario</th>
+      <form method="post" action="adduser.php" onsubmit="return validate(this) ">
+        <tr>
+            <tr> <th><input type="button" value="Antigrapales" onClick="antig()" style="color:black ; background-color:white;" >
+                <th><input type="button" value="Cuidado Personal" onclick="cui()" style="color:black; background-color:white;"></th></tr>
+              </form>
+          
+              <form action="adduser.php" method="post">
+     
+              </form>
+  
+             
+
+              </form>
+               
+              <script>
+                function antig(){
+                    window.location.href="Antigripales.html";
+                }
+                function cui(){
+                    window.location.href="Cuidado Personal.html";
+                }
+            </script>
+          </center>
+          </center>
+          </div>
+          
+          </table>
+          
+        </body>
+      </html>
